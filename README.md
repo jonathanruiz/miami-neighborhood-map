@@ -12,7 +12,13 @@ Make sure you have Node.js installed on your machine because you will need npm t
 
 2.  Then switch into that directory using:
 
+<<<<<<< HEAD
         cd miami-neighborhood-map
+||||||| merged common ancestors
+## Alternatives to Ejecting
+=======
+        cd myReads-react.git
+>>>>>>> c711941a1710e82ac489d365924edb3a6ad299b4
 
 3.  Install the dependencies using:
 
