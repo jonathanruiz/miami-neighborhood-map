@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SideBar from "./components/SideBar";
 import Map from "./components/Map";
 import "./App.scss";
 import MapStyles from "./data/MapStyles";
@@ -9,7 +10,7 @@ class App extends Component {
     super();
     this.state = {
       markers: RestauarantLocations,
-      styles: MapStyles,
+      styles: { styles: MapStyles },
       zoom: 13,
       center: { lat: 25.7739436, lng: -80.263992 }
     };
@@ -18,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <SideBar {...this.state} />
         <Map {...this.state} />
       </React.Fragment>
     );
