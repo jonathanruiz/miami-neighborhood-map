@@ -5,7 +5,7 @@ import {
   GoogleMap,
   Marker
 } from "react-google-maps";
-import MapStyles from "./MapStyles";
+import MapStyles from "../data/MapStyles";
 
 const MyMapComponent = withScriptjs(
   withGoogleMap(props => (
