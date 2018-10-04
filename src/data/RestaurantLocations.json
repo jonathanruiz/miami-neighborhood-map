@@ -1,5 +1,6 @@
 [
   {
+    "key": 0,
     "title": "Fritanga Cana Brava",
     "position": {
       "lat": 25.779562,
@@ -7,6 +8,7 @@
     }
   },
   {
+    "key": 1,
     "title": "Karla Bakery",
     "position": {
       "lat": 25.770812,
@@ -14,10 +16,27 @@
     }
   },
   {
+    "key": 2,
     "title": "Flanigan's Seafood Bar and Grill",
     "position": {
       "lat": 25.783812,
       "lng": -80.336062
+    }
+  },
+  {
+    "key": 3,
+    "title": "Latin American Bakery & Cafe",
+    "position": {
+      "lat": 25.763188,
+      "lng": -80.288062
+    }
+  },
+  {
+    "key": 4,
+    "title": "Casola's Pizzeria & Sub Shop",
+    "position": {
+      "lat": 25.746938,
+      "lng": -80.221437
     }
   }
 ]
