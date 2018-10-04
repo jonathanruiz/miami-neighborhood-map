@@ -3,7 +3,8 @@ import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
-  Marker
+  Marker,
+  InfoWindow
 } from "react-google-maps";
 
 const MyMapComponent = withScriptjs(
@@ -19,7 +20,11 @@ const MyMapComponent = withScriptjs(
             key={marker.key}
             position={marker.position}
             title={marker.title}
-          />
+          >
+            <InfoWindow>
+              <p>{marker.title}</p>
+            </InfoWindow>
+          </Marker>
         );
       })}
     </GoogleMap>
