@@ -5,21 +5,36 @@ import {
   GoogleMap,
   Marker
 } from "react-google-maps";
-import MapStyles from "../data/MapStyles";
 
 const MyMapComponent = withScriptjs(
   withGoogleMap(props => (
     <GoogleMap
-      defaultZoom={13}
-      defaultCenter={{ lat: 25.7739436, lng: -80.263992 }}
-      defaultOptions={{ styles: MapStyles }}
+      defaultZoom={props.zoom}
+      defaultCenter={props.center}
+      defaultOptions={props.styles}
     >
-      {props.isMarkerShown && (
+      {/* {props.isMarkerShown && (
         <Marker
           position={{ lat: 25.779562, lng: -80.240688 }}
           title={"La Cana Brava"}
         />
-      )}
+      )} */}
+      {/* {markers.map((key, marker) => {
+        <Marker
+          key={key}
+          position={{ lat: marker.lat, lng: marker.lng }}
+          title={marker.title}
+        />;
+      })} */}
+      <Marker
+        position={props.markers[0].position}
+        title={props.markers[0].title}
+      />
+      <Marker
+        position={props.markers[1].position}
+        title={props.markers[1].title}
+      />
+      ;
     </GoogleMap>
   ))
 );
@@ -29,6 +44,7 @@ class Map extends Component {
     const key = `AIzaSyBxSMGTzFzavFfAfgPhhWg1jww-bqQyPME`;
     return (
       <MyMapComponent
+        {...this.props}
         isMarkerShown
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&key=${key}`}
         loadingElement={<div style={{ height: `100%` }} />}

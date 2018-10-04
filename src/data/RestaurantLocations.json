@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Fritanga Cana Brava",
+    "position": {
+      "lat": 25.779562,
+      "lng": -80.240688
+    }
+  },
+  {
+    "title": "Karla Bakery",
+    "position": {
+      "lat": 25.770812,
+      "lng": -80.331812
+    }
+  },
+  {
+    "title": "Flanigan's Seafood Bar and Grill",
+    "position": {
+      "lat": 25.783812,
+      "lng": -80.336062
+    }
+  }
+]
