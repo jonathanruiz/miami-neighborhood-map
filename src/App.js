@@ -18,10 +18,10 @@ class App extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div className="app">
         <SideBar {...this.state} />
         <Map {...this.state} />
-      </React.Fragment>
+      </div>
     );
   }
 }
