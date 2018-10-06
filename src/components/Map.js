@@ -20,10 +20,17 @@ const MyMapComponent = withScriptjs(
             key={marker.key}
             position={marker.position}
             title={marker.title}
+            onClick={() => {
+              props.markerClickedOpen(marker);
+            }}
           >
-            <InfoWindow>
-              <p>{marker.title}</p>
-            </InfoWindow>
+            {marker.isOpen && (
+              <InfoWindow
+                onCloseClick={() => props.markerClickedClosed(marker)}
+              >
+                <p>{marker.title}</p>
+              </InfoWindow>
+            )}
           </Marker>
         );
       })}

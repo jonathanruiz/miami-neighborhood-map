@@ -5,7 +5,8 @@
     "position": {
       "lat": 25.779562,
       "lng": -80.240688
-    }
+    },
+    "isOpen": false
   },
   {
     "key": 1,
@@ -13,7 +14,8 @@
     "position": {
       "lat": 25.770812,
       "lng": -80.331812
-    }
+    },
+    "isOpen": false
   },
   {
     "key": 2,
@@ -21,7 +23,8 @@
     "position": {
       "lat": 25.783812,
       "lng": -80.336062
-    }
+    },
+    "isOpen": false
   },
   {
     "key": 3,
@@ -29,7 +32,8 @@
     "position": {
       "lat": 25.763188,
       "lng": -80.288062
-    }
+    },
+    "isOpen": false
   },
   {
     "key": 4,
@@ -37,6 +41,7 @@
     "position": {
       "lat": 25.746938,
       "lng": -80.221437
-    }
+    },
+    "isOpen": false
   }
 ]
