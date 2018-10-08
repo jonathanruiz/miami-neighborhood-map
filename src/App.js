@@ -4,6 +4,7 @@ import Map from "./components/Map";
 import "./App.scss";
 import MapStyles from "./data/MapStyles";
 import RestauarantLocations from "./data/RestaurantLocations";
+import SquareAPI from "./api/Helper";
 
 class App extends Component {
   constructor() {
@@ -14,6 +15,16 @@ class App extends Component {
       zoom: 12,
       center: { lat: 25.7739436, lng: -80.263992 }
     };
+  }
+
+  componentDidMount() {
+    SquareAPI.search({
+      query: "bakery",
+      near: "Miami, FL",
+      limit: 10
+    }).then(res => {
+      console.log(res);
+    });
   }
 
   closeAllMarkers = () => {
