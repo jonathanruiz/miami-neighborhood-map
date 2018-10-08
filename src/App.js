@@ -11,20 +11,11 @@ class App extends Component {
     super();
     this.state = {
       markers: RestauarantLocations,
+      venues: [],
       styles: { styles: MapStyles },
       zoom: 12,
       center: { lat: 25.7739436, lng: -80.263992 }
     };
-  }
-
-  componentDidMount() {
-    SquareAPI.search({
-      query: "bakery",
-      near: "Miami, FL",
-      limit: 10
-    }).then(res => {
-      console.log(res);
-    });
   }
 
   closeAllMarkers = () => {
@@ -32,7 +23,11 @@ class App extends Component {
       marker.isOpen = false;
       return marker;
     });
-    this.setState({ markers: Object.assign(this.state.markers, markers) });
+
+    // Look at the Object.assign method to learn how it works - https://mzl.la/1Mo3l21
+    this.setState({
+      markers: Object.assign(this.state.markers, markers)
+    });
   };
 
   markerClickedOpen = marker => {
@@ -41,6 +36,14 @@ class App extends Component {
 
     // Look at the Object.assign method to learn how it works - https://mzl.la/1Mo3l21
     this.setState({ markers: Object.assign(this.state.markers, marker) });
+
+    const venue = this.state.markers.find(venue => venue.id === marker.id);
+
+    SquareAPI.getVenueDetails(marker.id).then(res => {
+      const newVenue = Object.assign(venue, res.response.venue);
+      this.setState({ venues: Object.assign(this.state.venues, newVenue) });
+      // console.log(newVenue, "New Venue");
+    });
   };
 
   render() {

@@ -17,12 +17,10 @@ const MyMapComponent = withScriptjs(
       {props.markers.map(marker => {
         return (
           <Marker
-            key={marker.key}
+            key={marker.id}
             position={marker.position}
             title={marker.title}
-            onClick={() => {
-              props.markerClickedOpen(marker);
-            }}
+            onClick={() => props.markerClickedOpen(marker)}
           >
             {marker.isOpen && (
               <InfoWindow>
