@@ -9,8 +9,14 @@ body {
   display: flex;
 }
 
-#map {
+#map-container {
   width: 75%;
+  height: 100%;
+  width: 100%;
+
+  #map-element {
+    height: 100vh;
+  }
 }
 
 #sidebar {

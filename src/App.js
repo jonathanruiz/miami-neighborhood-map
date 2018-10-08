@@ -16,15 +16,17 @@ class App extends Component {
     };
   }
 
-  markerClickedOpen = marker => {
-    marker.isOpen = true;
-
-    // Look at the Object.assign method to learn how it works - https://mzl.la/1Mo3l21
-    this.setState({ markers: Object.assign(this.state.markers, marker) });
+  closeAllMarkers = () => {
+    const markers = this.state.markers.map(marker => {
+      marker.isOpen = false;
+      return marker;
+    });
+    this.setState({ markers: Object.assign(this.state.markers, markers) });
   };
 
-  markerClickedClosed = marker => {
-    marker.isOpen = false;
+  markerClickedOpen = marker => {
+    this.closeAllMarkers();
+    marker.isOpen = true;
 
     // Look at the Object.assign method to learn how it works - https://mzl.la/1Mo3l21
     this.setState({ markers: Object.assign(this.state.markers, marker) });
@@ -34,11 +36,7 @@ class App extends Component {
     return (
       <div className="app">
         <SideBar {...this.state} />
-        <Map
-          {...this.state}
-          markerClickedOpen={this.markerClickedOpen}
-          markerClickedClosed={this.markerClickedClosed}
-        />
+        <Map {...this.state} markerClickedOpen={this.markerClickedOpen} />
       </div>
     );
   }

@@ -25,9 +25,7 @@ const MyMapComponent = withScriptjs(
             }}
           >
             {marker.isOpen && (
-              <InfoWindow
-                onCloseClick={() => props.markerClickedClosed(marker)}
-              >
+              <InfoWindow>
                 <p>{marker.title}</p>
               </InfoWindow>
             )}
@@ -46,10 +44,8 @@ class Map extends Component {
         {...this.props}
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&key=${key}`}
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={
-          <div id="map" style={{ height: `100%`, width: `100%` }} />
-        }
-        mapElement={<div style={{ height: `100vh` }} />}
+        containerElement={<div id="map-container" />}
+        mapElement={<div id="map-element" />}
       />
     );
   }
