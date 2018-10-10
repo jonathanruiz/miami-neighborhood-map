@@ -43,8 +43,8 @@ class Helper {
       .then(res => res.json())
       .catch(error => {
         alert(
-          "An error occurred while trying to fetch data from Foursquare - Error Code of: " +
-            error.response
+          `An error occurred while trying to fetch data from Foursquare - Error Code: 
+            ${error.response}`
         );
       });
   }
