@@ -19,6 +19,16 @@ class App extends Component {
     };
   }
 
+  gm_authFailure = () => {
+    window.alert(
+      `An error occurred while trying to fetch data from GoogleMaps.`
+    );
+  };
+
+  componentDidMount() {
+    window.gm_authFailure = this.gm_authFailure;
+  }
+
   closeAllMarkers = () => {
     const markers = this.state.markers.map(marker => {
       marker.isOpen = false;
@@ -43,8 +53,6 @@ class App extends Component {
     SquareAPI.getVenueDetails(marker.id).then(res => {
       const newVenue = Object.assign(venue, res.response.venue);
       this.setState({ venues: Object.assign(this.state.venues, newVenue) });
-
-      // console.log(newVenue, "New Venue");
     });
   };
 

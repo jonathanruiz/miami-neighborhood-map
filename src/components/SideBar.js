@@ -1,19 +1,14 @@
 import React, { Component } from "react";
+import Search from "./Search";
+import List from "./List";
 
 class SideBar extends Component {
   render() {
     return (
-      <aside id="sidebar" {...this.props}>
+      <aside id="sidebar">
         <h2>List</h2>
-        <ul id="list-sidebar">
-          {this.props.markers.map((marker, key) => {
-            return (
-              <li className="list-item" key={marker.id} tabIndex={key + 1}>
-                <p>{marker.title}</p>
-              </li>
-            );
-          })}
-        </ul>
+        <Search />
+        <List {...this.props} />
       </aside>
     );
   }

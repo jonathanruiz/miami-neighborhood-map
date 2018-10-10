@@ -34,12 +34,18 @@ body {
 
 #sidebar {
   grid-area: sidebar;
-  margin: 20px;
-}
+  background-color: lightcyan;
 
-#list-sidebar {
-  padding: 0;
-  list-style: none;
+  h2,
+  #search,
+  #list-sidebar {
+    margin: 20px;
+  }
+
+  #list-sidebar {
+    padding: 0;
+    list-style: none;
+  }
 }
 
 .list-item {
