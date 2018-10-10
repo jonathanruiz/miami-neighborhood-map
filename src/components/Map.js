@@ -15,6 +15,7 @@ const MyMapComponent = withScriptjs(
       defaultOptions={props.styles}
     >
       {props.markers.map(marker => {
+        const venueInfo = props.markers.find(venue => venue.id === marker.id);
         return (
           <Marker
             key={marker.id}
@@ -22,11 +23,20 @@ const MyMapComponent = withScriptjs(
             title={marker.title}
             onClick={() => props.markerClickedOpen(marker)}
           >
-            {marker.isOpen && (
-              <InfoWindow>
-                <p>{marker.title}</p>
-              </InfoWindow>
-            )}
+            {marker.isOpen &&
+              venueInfo.bestPhoto && (
+                <InfoWindow>
+                  <React.Fragment>
+                    <p>{venueInfo.name}</p>
+                    <img
+                      src={`${venueInfo.bestPhoto.prefix}200x200${
+                        venueInfo.bestPhoto.suffix
+                      }`}
+                      alt=""
+                    />
+                  </React.Fragment>
+                </InfoWindow>
+              )}
           </Marker>
         );
       })}
