@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./components/Header";
 import SideBar from "./components/SideBar";
 import Map from "./components/Map";
 import "./App.scss";
@@ -50,6 +51,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <Header />
         <SideBar {...this.state} />
         <Map {...this.state} markerClickedOpen={this.markerClickedOpen} />
       </div>
