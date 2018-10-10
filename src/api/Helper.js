@@ -51,13 +51,7 @@ class Helper {
 }
 
 export default class SquareAPI {
-  static search(urlParams) {
-    return Helper.simpleFetch("/venues/search", "GET", urlParams);
-  }
   static getVenueDetails(VENUE_ID) {
     return Helper.simpleFetch(`/venues/${VENUE_ID}`, "GET");
-  }
-  static getVenuePhotos(VENUE_ID) {
-    return Helper.simpleFetch(`/venues/${VENUE_ID}/photos`, "GET");
   }
 }
