@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class SideBar extends Component {
   render() {
     return (
-      <div id="sidebar" {...this.props}>
+      <aside id="sidebar" {...this.props}>
         <h2>List</h2>
         <ul id="list-sidebar">
           {this.props.markers.map((marker, key) => {
@@ -14,7 +14,7 @@ class SideBar extends Component {
             );
           })}
         </ul>
-      </div>
+      </aside>
     );
   }
 }

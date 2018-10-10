@@ -4,9 +4,9 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div id="header">
+      <header id="header">
         <h2>Miami Neighborhood Map</h2>
-      </div>
+      </header>
     );
   }
 }
