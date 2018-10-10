@@ -15,22 +15,28 @@ const MyMapComponent = withScriptjs(
       defaultOptions={props.styles}
     >
       {props.markers.map(marker => {
+        const venueInfo = props.markers.find(venue => venue.id === marker.id);
         return (
           <Marker
-            key={marker.key}
+            key={marker.id}
             position={marker.position}
             title={marker.title}
-            onClick={() => {
-              props.markerClickedOpen(marker);
-            }}
+            onClick={() => props.markerClickedOpen(marker)}
           >
-            {marker.isOpen && (
-              <InfoWindow
-                onCloseClick={() => props.markerClickedClosed(marker)}
-              >
-                <p>{marker.title}</p>
-              </InfoWindow>
-            )}
+            {marker.isOpen &&
+              venueInfo.bestPhoto && (
+                <InfoWindow>
+                  <React.Fragment>
+                    <p>{venueInfo.name}</p>
+                    <img
+                      src={`${venueInfo.bestPhoto.prefix}200x200${
+                        venueInfo.bestPhoto.suffix
+                      }`}
+                      alt={`${venueInfo.name} venue`}
+                    />
+                  </React.Fragment>
+                </InfoWindow>
+              )}
           </Marker>
         );
       })}
@@ -46,10 +52,8 @@ class Map extends Component {
         {...this.props}
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&key=${key}`}
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={
-          <div id="map" style={{ height: `100%`, width: `100%` }} />
-        }
-        mapElement={<div style={{ height: `100vh` }} />}
+        containerElement={<div id="map-container" />}
+        mapElement={<div id="map-element" />}
       />
     );
   }

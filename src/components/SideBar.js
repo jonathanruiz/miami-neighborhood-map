@@ -8,7 +8,7 @@ class SideBar extends Component {
         <ul id="list-sidebar">
           {this.props.markers.map(marker => {
             return (
-              <li className="list-item" key={marker.key}>
+              <li className="list-item" key={marker.id}>
                 {marker.title}
               </li>
             );
