@@ -1,30 +1,14 @@
 import React, { Component } from "react";
 
 class Search extends Component {
-  constructor() {
-    super();
-    this.state = {
-      query: "",
-      results: []
-    };
-  }
-
-  updateQuery = query => {
-    this.setState({ query: query }, this.submitQuery);
-  };
-
-  submitQuery() {
-    console.log("submitted Query");
-  }
-
   render() {
     return (
       <input
-        value={this.state.query}
+        value={this.props.query}
         id="search"
         type="search"
         placeholder="Bakery"
-        onChange={event => this.updateQuery(event.target.value)}
+        onChange={event => this.state.updateQuery(event.target.value)}
       />
     );
   }
