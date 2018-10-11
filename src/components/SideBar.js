@@ -7,7 +7,7 @@ class SideBar extends Component {
     return (
       <aside id="sidebar">
         <h2>List</h2>
-        <Search />
+        <Search {...this.props} />
         <List {...this.props} />
       </aside>
     );

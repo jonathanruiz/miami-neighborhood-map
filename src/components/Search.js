@@ -4,7 +4,8 @@ class Search extends Component {
   constructor() {
     super();
     this.state = {
-      query: ""
+      query: "",
+      results: []
     };
   }
 
@@ -13,7 +14,7 @@ class Search extends Component {
   };
 
   submitQuery() {
-    console.log("query submitted");
+    console.log("submitted Query");
   }
 
   render() {
