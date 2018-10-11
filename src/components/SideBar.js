@@ -8,7 +8,7 @@ class SideBar extends Component {
       <aside id="sidebar">
         <h2>List</h2>
         <Search {...this.props} />
-        <List {...this.props} />
+        <List {...this.props} listItemClick={this.props.listItemClick} />
       </aside>
     );
   }

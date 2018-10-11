@@ -56,11 +56,16 @@ class App extends Component {
     });
   };
 
+  listItemClick = venue => {
+    const marker = this.state.markers.find(marker => marker.id === venue.id);
+    this.markerClickedOpen(marker);
+  };
+
   render() {
     return (
       <div className="app">
         <Header />
-        <SideBar {...this.state} />
+        <SideBar {...this.state} listItemClick={this.listItemClick} />
         <Map {...this.state} markerClickedOpen={this.markerClickedOpen} />
       </div>
     );

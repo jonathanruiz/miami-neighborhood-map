@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ListItem from "./ListItem";
 
 class List extends Component {
   constructor() {
@@ -9,11 +10,13 @@ class List extends Component {
   render() {
     return (
       <ul id="list-sidebar">
-        {this.props.markers.map((marker, key) => {
+        {this.props.markers.map((venue, key) => {
           return (
-            <li className="list-item" key={marker.id} tabIndex={key + 1}>
-              <p>{marker.title}</p>
-            </li>
+            <ListItem
+              key={key}
+              {...venue}
+              listItemClick={this.props.listItemClick}
+            />
           );
         })}
       </ul>
