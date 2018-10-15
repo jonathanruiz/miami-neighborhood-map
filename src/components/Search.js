@@ -4,11 +4,10 @@ class Search extends Component {
   render() {
     return (
       <input
-        value={this.props.query}
         id="search"
         type="search"
-        placeholder="Bakery"
-        onChange={event => this.state.updateQuery(event.target.value)}
+        placeholder="Filter"
+        onChange={this.props.updateQuery}
       />
     );
   }

@@ -7,23 +7,35 @@ class SideBar extends Component {
     super();
     this.state = {
       query: "",
-      results: []
+      venues: []
     };
   }
 
-  updateQuery = query => {
-    this.setState({ query: query }, this.submitQuery);
+  filterQuery = () => {
+    if (this.state.query.trim() !== "") {
+      const venues = this.props.markers.filter(venue =>
+        venue.title.toLowerCase().includes(this.state.query.toLowerCase())
+      );
+
+      return venues;
+    }
+    return this.props.markers;
   };
 
-  submitQuery() {
-    console.log("submitted Query");
-  }
+  updateQuery = event => {
+    this.setState({ query: event.target.value });
+  };
+
   render() {
     return (
       <aside id="sidebar">
         <h2>List</h2>
         <Search {...this.props} updateQuery={this.updateQuery} />
-        <List {...this.props} listItemClick={this.props.listItemClick} />
+        <List
+          {...this.props}
+          markers={this.filterQuery()}
+          listItemClick={this.props.listItemClick}
+        />
       </aside>
     );
   }

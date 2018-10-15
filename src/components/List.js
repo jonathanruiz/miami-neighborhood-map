@@ -10,15 +10,16 @@ class List extends Component {
   render() {
     return (
       <ul id="list-sidebar">
-        {this.props.markers.map((venue, key) => {
-          return (
-            <ListItem
-              key={key}
-              {...venue}
-              listItemClick={this.props.listItemClick}
-            />
-          );
-        })}
+        {this.props.markers &&
+          this.props.markers.map((venue, key) => {
+            return (
+              <ListItem
+                key={key}
+                {...venue}
+                listItemClick={this.props.listItemClick}
+              />
+            );
+          })}
       </ul>
     );
   }
