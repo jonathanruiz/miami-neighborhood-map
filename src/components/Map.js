@@ -1,3 +1,4 @@
+/* global google */
 import React, { Component } from "react";
 import {
   withScriptjs,
@@ -22,6 +23,7 @@ const MyMapComponent = withScriptjs(
             position={marker.position}
             title={marker.title}
             onClick={() => props.markerClickedOpen(marker)}
+            animation={google.maps.Animation.DROP}
           >
             {marker.isOpen &&
               venueInfo.bestPhoto && (

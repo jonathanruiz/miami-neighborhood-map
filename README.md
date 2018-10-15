@@ -50,3 +50,7 @@ Make sure you have Node.js installed on your machine because you will need npm t
     ├── index.js # You should not need to modify this file. It is used for DOM rendering only.
     └── serviceWorker.js # Provides caching and offline use
 ```
+
+## Service Worker
+
+This app has a service worker in order to be able to run offline and cache frequent files for quicker load times. The service worker will only work on a production ready build.
