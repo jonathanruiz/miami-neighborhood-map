@@ -24,6 +24,20 @@ class SideBar extends Component {
 
   updateQuery = event => {
     this.setState({ query: event.target.value });
+    const markers = this.props.markers.map(venue => {
+      const isMatched = venue.title
+        .toLowerCase()
+        .includes(event.target.value.toLowerCase());
+      const marker = this.props.markers.find(marker => marker.id === venue.id);
+      if (isMatched) {
+        marker.isVisible = true;
+      } else {
+        marker.isVisible = false;
+      }
+      return marker;
+    });
+
+    this.props.updateSuperState({ markers });
   };
 
   render() {

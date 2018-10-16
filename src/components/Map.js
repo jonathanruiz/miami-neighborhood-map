@@ -24,6 +24,7 @@ const MyMapComponent = withScriptjs(
             title={marker.title}
             onClick={() => props.markerClickedOpen(marker)}
             animation={google.maps.Animation.DROP}
+            visible={marker.isVisible}
           >
             {marker.isOpen &&
               venueInfo.bestPhoto && (

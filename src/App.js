@@ -15,7 +15,10 @@ class App extends Component {
       venues: [],
       styles: { styles: MapStyles },
       zoom: 12,
-      center: { lat: 25.7739436, lng: -80.263992 }
+      center: { lat: 25.7739436, lng: -80.263992 },
+      updateSuperState: obj => {
+        this.setState(obj);
+      }
     };
   }
 
