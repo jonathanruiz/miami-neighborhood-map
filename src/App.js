@@ -56,6 +56,11 @@ class App extends Component {
     SquareAPI.getVenueDetails(marker.id).then(res => {
       const newVenue = Object.assign(venue, res.response.venue);
       this.setState({ venues: Object.assign(this.state.venues, newVenue) });
+
+      // Error handeling for reaching quota limit
+      if (res.meta.code === 429) {
+        alert("Quota limit was reached in the Foursquare API");
+      }
     });
   };
 
