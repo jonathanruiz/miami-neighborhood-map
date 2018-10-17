@@ -22,7 +22,7 @@ const MyMapComponent = withScriptjs(
             position={marker.position}
             title={marker.title}
             onClick={() => props.markerClickedOpen(marker)}
-            animation={arr.length === 1 ? 1 : 2}
+            animation={marker.isOpen === true ? 1 : 2}
           >
             {marker.isOpen &&
               venueInfo.bestPhoto && (
