@@ -48,7 +48,6 @@ class App extends Component {
     this.closeAllMarkers();
     marker.isOpen = true;
 
-    // Look at the Object.assign method to learn how it works - https://mzl.la/1Mo3l21
     this.setState({ markers: Object.assign(this.state.markers, marker) });
 
     const venue = this.state.markers.find(venue => venue.id === marker.id);

@@ -1,4 +1,3 @@
-/* global google */
 import React, { Component } from "react";
 import {
   withScriptjs,
@@ -15,7 +14,7 @@ const MyMapComponent = withScriptjs(
       defaultCenter={props.center}
       defaultOptions={props.styles}
     >
-      {props.markers.map(marker => {
+      {props.markers.filter(marker => marker.isVisible).map((marker, arr) => {
         const venueInfo = props.markers.find(venue => venue.id === marker.id);
         return (
           <Marker
@@ -23,8 +22,7 @@ const MyMapComponent = withScriptjs(
             position={marker.position}
             title={marker.title}
             onClick={() => props.markerClickedOpen(marker)}
-            animation={google.maps.Animation.DROP}
-            visible={marker.isVisible}
+            animation={arr.length === 1 ? 1 : 2}
           >
             {marker.isOpen &&
               venueInfo.bestPhoto && (
