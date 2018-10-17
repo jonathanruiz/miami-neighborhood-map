@@ -28,7 +28,7 @@ Make sure you have Node.js installed on your machine because you will need npm t
 
 ```bash
 ├── CONTRIBUTING.md
-├── README.md - This file.
+├── README.md - # This file.
 ├── package.json # npm package manager file.
 ├── public
 │   ├── favicon.ico # React Icon
@@ -54,3 +54,21 @@ Make sure you have Node.js installed on your machine because you will need npm t
 ## Service Worker
 
 This app has a service worker in order to be able to run offline and cache frequent files for quicker load times. The service worker will only work on a production ready build.
+
+## Production Mode
+
+To build a production ready version of the app can be done with a few commands.
+
+1.  Run the following command in your terminal to create a production build:
+
+        npm run build
+
+2.  Then host a server for your build:
+
+         serve -s build
+
+3.  Finally, open up your preferred web browser and enter in the following address: `localhost:5000`
+
+With those few steps, you should be up an running!
+
+NOTE: Once you enter the command to host and serve your build, a box will show up to show you in your terminal with the local and network address of your build. You could enter in the address labeled `On Your Network` on your phone, tablet and other devices to test it out on a device other than your computer.
