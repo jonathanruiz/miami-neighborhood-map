@@ -39,9 +39,7 @@ class App extends Component {
     });
 
     // Look at the Object.assign method to learn how it works - https://mzl.la/1Mo3l21
-    this.setState({
-      markers: Object.assign(this.state.markers, markers)
-    });
+    this.setState({ markers: Object.assign(this.state.markers, markers) });
   };
 
   markerClickedOpen = marker => {
@@ -73,7 +71,11 @@ class App extends Component {
       <div className="app">
         <Header />
         <SideBar {...this.state} listItemClick={this.listItemClick} />
-        <Map {...this.state} markerClickedOpen={this.markerClickedOpen} />
+        <Map
+          {...this.state}
+          markerClickedOpen={this.markerClickedOpen}
+          closeAllMarkers={this.closeAllMarkers}
+        />
       </div>
     );
   }

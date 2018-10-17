@@ -22,19 +22,13 @@ const MyMapComponent = withScriptjs(
             position={marker.position}
             title={marker.title}
             onClick={() => props.markerClickedOpen(marker)}
-            animation={marker.isOpen === true ? 1 : 2}
+            animation={marker.isOpen === true ? 1 : null}
           >
             {marker.isOpen &&
               venueInfo.bestPhoto && (
-                <InfoWindow>
+                <InfoWindow onCloseClick={() => props.closeAllMarkers()}>
                   <React.Fragment>
-                    <p>{venueInfo.name}</p>
-                    <img
-                      src={`${venueInfo.bestPhoto.prefix}200x200${
-                        venueInfo.bestPhoto.suffix
-                      }`}
-                      alt={`${venueInfo.name} venue`}
-                    />
+                    <p>{marker.title}</p>
                   </React.Fragment>
                 </InfoWindow>
               )}
