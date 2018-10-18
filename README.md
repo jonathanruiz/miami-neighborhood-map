@@ -2,6 +2,12 @@
 
 This responsive app is a neighborhood map of Miami, Florida with a few of the best (by opinion) restaurants to visit. It was built using React throught the `create-react-app` package, the Google Maps API and the FourSquare API.
 
+## Demo
+
+If you want to see the app in action, you can check it through this [website](https://miami-neighborhood.netlify.com/).
+
+NOTE: It may not work entirely because the Foursquare API may have reached its quota limit.
+
 ## Getting Started
 
 ### Prerequisites
