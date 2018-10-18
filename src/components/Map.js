@@ -29,6 +29,12 @@ const MyMapComponent = withScriptjs(
                 <InfoWindow onCloseClick={() => props.closeAllMarkers()}>
                   <React.Fragment>
                     <p>{marker.title}</p>
+                    <img
+                      src={`${venueInfo.bestPhoto.prefix}200x200${
+                        venueInfo.bestPhoto.suffix
+                      }`}
+                      alt={`${venueInfo.name} venue`}
+                    />
                   </React.Fragment>
                 </InfoWindow>
               )}
