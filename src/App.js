@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
 import Map from "./components/Map";
-import "./App.scss";
 import MapStyles from "./data/MapStyles";
 import RestauarantLocations from "./data/RestaurantLocations";
 import SquareAPI from "./api/Helper";
+import "./App.scss";
 
 class App extends Component {
   constructor() {
