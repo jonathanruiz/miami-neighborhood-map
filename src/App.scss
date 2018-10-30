@@ -10,7 +10,7 @@ body {
   grid-template-columns: 1fr 3fr;
   grid-template-areas:
     "head head"
-    "sidebar map";
+    "map map";
 }
 
 #header {
@@ -33,7 +33,6 @@ body {
 }
 
 #sidebar {
-  grid-area: sidebar;
   background-color: lightcyan;
 
   h2,
@@ -61,6 +60,10 @@ body {
   border: #178eb9 solid 1px;
   cursor: pointer;
 }
+
+/*
+* Hamburger Menu Styles
+*/
 
 /* Position and sizing of burger button */
 .bm-burger-button {
