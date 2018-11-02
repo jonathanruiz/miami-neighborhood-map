@@ -67,7 +67,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
+      <div id="outer-container" className="app">
         <Header {...this.state} listItemClick={this.listItemClick} />
         <Map
           {...this.state}
