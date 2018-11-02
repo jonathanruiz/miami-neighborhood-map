@@ -5,7 +5,13 @@ import SideBar from "./SideBar";
 class Hamburger extends Component {
   render() {
     return (
-      <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
+      <Menu
+        customBurgerIcon={
+          <img className=".bm-icon" src="img/magnify.svg" alt="search icon" />
+        }
+        pageWrapId={"page-wrap"}
+        outerContainerId={"outer-container"}
+      >
         <SideBar {...this.props} />
       </Menu>
     );
