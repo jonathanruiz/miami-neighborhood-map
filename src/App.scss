@@ -33,11 +33,15 @@ body {
 }
 
 #sidebar {
-  background-color: lightcyan;
+  // background-color: lightcyan;
+
+  h2 {
+    margin-top: 0px;
+  }
 
   h2,
   #list-sidebar {
-    margin: 20px;
+    margin-bottom: 20px;
   }
 
   #search {
@@ -116,4 +120,14 @@ body {
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.burger-menu {
+  height: 100% !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+  position: fixed !important;
+  right: inherit !important;
+  width: initial !important;
+  white-space: initial !important;
 }

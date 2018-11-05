@@ -6,6 +6,8 @@ class Hamburger extends Component {
   render() {
     return (
       <Menu
+        width={300}
+        menuClassName={"burger-menu"}
         customBurgerIcon={
           <img className=".bm-icon" src="img/magnify.svg" alt="search icon" />
         }
