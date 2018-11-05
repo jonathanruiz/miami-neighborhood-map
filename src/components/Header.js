@@ -5,6 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header id="header">
+        <Hamburger {...this.props} />
         <h2>Miami Neighborhood Map</h2>
       </header>
     );

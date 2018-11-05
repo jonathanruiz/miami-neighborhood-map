@@ -53,7 +53,9 @@ class Map extends Component {
         {...this.props}
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&key=${key}`}
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div id="map-container" role="application" />}
+        containerElement={
+          <div id="page-wrap" className="map-container" role="application" />
+        }
         mapElement={<div id="map-element" />}
       />
     );

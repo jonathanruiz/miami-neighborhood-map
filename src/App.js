@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
-import SideBar from "./components/SideBar";
 import Map from "./components/Map";
 import MapStyles from "./data/MapStyles";
 import RestauarantLocations from "./data/RestaurantLocations";
@@ -68,9 +67,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
-        <Header />
-        <SideBar {...this.state} listItemClick={this.listItemClick} />
+      <div id="outer-container" className="app">
+        <Header {...this.state} listItemClick={this.listItemClick} />
         <Map
           {...this.state}
           markerClickedOpen={this.markerClickedOpen}
