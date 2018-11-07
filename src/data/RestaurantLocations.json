@@ -48,15 +48,5 @@
     },
     "isOpen": false,
     "isVisible": true
-  },
-  {
-    "id": "",
-    "title": "",
-    "position": {
-      "lat": 0,
-      "lng": 0
-    },
-    "isOpen": false,
-    "isVisible": true
   }
 ]
