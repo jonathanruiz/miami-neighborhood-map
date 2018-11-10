@@ -14,18 +14,23 @@ const MyMapComponent = withScriptjs(
       defaultCenter={props.center}
       defaultOptions={props.styles}
     >
-      {props.markers.filter(marker => marker.isVisible).map((marker, arr) => {
-        const venueInfo = props.markers.find(venue => venue.id === marker.id);
-        return (
-          <Marker
-            key={marker.id}
-            position={marker.position}
-            title={marker.title}
-            onClick={() => props.markerClickedOpen(marker)}
-            animation={marker.isOpen === true ? 1 : null}
-          >
-            {marker.isOpen &&
-              venueInfo.bestPhoto && (
+      {props.markers
+        .filter(marker => marker.isVisible)
+        .map((marker, arr) => {
+          const venueInfo = props.markers.find(venue => venue.id === marker.id);
+          return (
+            <Marker
+              key={marker.id}
+              position={marker.position}
+              title={marker.title}
+              onClick={() => props.markerClickedOpen(marker)}
+              icon={{
+                url: "img/marker.svg",
+                scaledSize: { width: 24, height: 36 }
+              }}
+              animation={marker.isOpen === true ? 1 : null}
+            >
+              {marker.isOpen && venueInfo.bestPhoto && (
                 <InfoWindow onCloseClick={() => props.closeAllMarkers()}>
                   <React.Fragment>
                     <p>{marker.title}</p>
@@ -38,9 +43,9 @@ const MyMapComponent = withScriptjs(
                   </React.Fragment>
                 </InfoWindow>
               )}
-          </Marker>
-        );
-      })}
+            </Marker>
+          );
+        })}
     </GoogleMap>
   ))
 );

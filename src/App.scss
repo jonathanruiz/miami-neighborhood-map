@@ -1,5 +1,10 @@
 @import "./scss/hamburger.scss";
 
+@font-face {
+  font-family: "Bayshore";
+  src: url("./fonts/Bayshore.ttf");
+}
+
 html,
 body {
   height: 100%;
@@ -20,7 +25,11 @@ body {
   height: 10vh;
   width: 100%;
   h2 {
+    margin: 15px 0;
     text-align: center;
+    font-family: "Bayshore";
+    font-size: 36px;
+    color: #e13cb0;
   }
 }
 
