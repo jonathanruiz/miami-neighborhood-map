@@ -24,12 +24,16 @@ body {
   grid-area: head;
   height: 10vh;
   width: 100%;
-  h2 {
+  #main-title {
     margin: 15px 0;
     text-align: center;
     font-family: "Bayshore";
     font-size: 36px;
     color: #e13cb0;
+  }
+  h2 {
+    margin: 15px 0;
+    text-align: center;
   }
 }
 

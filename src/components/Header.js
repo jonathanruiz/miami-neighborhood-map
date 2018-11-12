@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header id="header">
         <Hamburger {...this.props} />
-        <h2>Miami Neighborhood Map</h2>
+        <h2 id="main-title">Miami Neighborhood Map</h2>
       </header>
     );
   }
