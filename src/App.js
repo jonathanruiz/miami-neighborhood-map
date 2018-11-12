@@ -44,6 +44,7 @@ class App extends Component {
   markerClickedOpen = marker => {
     this.closeAllMarkers();
     marker.isOpen = true;
+    // console.log(marker);
 
     this.setState({ markers: Object.assign(this.state.markers, marker) });
 

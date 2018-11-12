@@ -33,13 +33,19 @@ const MyMapComponent = withScriptjs(
               {marker.isOpen && venueInfo.bestPhoto && (
                 <InfoWindow onCloseClick={() => props.closeAllMarkers()}>
                   <React.Fragment>
-                    <p>{marker.title}</p>
-                    <img
-                      src={`${venueInfo.bestPhoto.prefix}200x200${
-                        venueInfo.bestPhoto.suffix
-                      }`}
-                      alt={`${venueInfo.name} venue`}
-                    />
+                    <div className="info-window">
+                      <h4>{marker.title}</h4>
+                      <p>
+                        {`${marker.location.formattedAddress[0]},
+                        ${marker.location.formattedAddress[1]}, USA`}
+                      </p>
+                      <img
+                        src={`${venueInfo.bestPhoto.prefix}200x200${
+                          venueInfo.bestPhoto.suffix
+                        }`}
+                        alt={`${venueInfo.name} venue`}
+                      />
+                    </div>
                   </React.Fragment>
                 </InfoWindow>
               )}
