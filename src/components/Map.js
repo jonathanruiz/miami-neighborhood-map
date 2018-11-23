@@ -16,7 +16,7 @@ const MyMapComponent = withScriptjs(
     >
       {props.markers
         .filter(marker => marker.isVisible)
-        .map((marker, arr) => {
+        .map(marker => {
           const venueInfo = props.markers.find(venue => venue.id === marker.id);
           return (
             <Marker
@@ -26,7 +26,7 @@ const MyMapComponent = withScriptjs(
               onClick={() => props.markerClickedOpen(marker)}
               icon={{
                 url: "img/marker.svg",
-                scaledSize: { width: 24, height: 36 }
+                scaledSize: { width: 18, height: 27 }
               }}
               animation={marker.isOpen === true ? 1 : null}
             >

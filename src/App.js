@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Map from "./components/Map";
 import MapStyles from "./data/MapStyles";
-import RestauarantLocations from "./data/RestaurantLocations";
+import VenueLocations from "./data/VenueLocations";
 import SquareAPI from "./api/Helper";
 import "./App.scss";
 
@@ -10,7 +10,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      markers: RestauarantLocations,
+      markers: VenueLocations,
       venues: [],
       styles: { styles: MapStyles },
       zoom: 12,

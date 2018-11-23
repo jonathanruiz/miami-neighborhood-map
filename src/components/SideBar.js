@@ -43,7 +43,7 @@ class SideBar extends Component {
   render() {
     return (
       <aside id="sidebar">
-        <h2>Restaurant List</h2>
+        <h2>Venue List</h2>
         <Search {...this.props} updateQuery={this.updateQuery} />
         <List
           {...this.props}

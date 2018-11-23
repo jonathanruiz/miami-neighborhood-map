@@ -1,0 +1,160 @@
+[
+  {
+    "id": "4c85735947cc224b6f68a19f",
+    "title": "Fritanga Caña Brava",
+    "position": { "lat": 25.779562, "lng": -80.240688 },
+    "area": null,
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b5e22abf964a520977f29e3",
+    "title": "Karla Bakery",
+    "position": { "lat": 25.770812, "lng": -80.331812 },
+    "area": null,
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4aeba471f964a52018c421e3",
+    "title": "Flanigan's Seafood Bar and Grill",
+    "position": { "lat": 25.783812, "lng": -80.336062 },
+    "area": null,
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4a8893e8f964a520ff0620e3",
+    "title": "Latin American Bakery & Cafe",
+    "position": { "lat": 25.763188, "lng": -80.288062 },
+    "area": null,
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4a95bfe0f964a520792420e3",
+    "title": "Casola's Pizzeria & Sub Shop",
+    "position": { "lat": 25.746938, "lng": -80.221437 },
+    "area": null,
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "40e0b100f964a5207c051fe3",
+    "title": "Vizcaya Museum and Gardens",
+    "position": { "lat": 25.74522907098763, "lng": -80.21121317487685 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b2a6222f964a5200da824e3",
+    "title": "Pérez Art Museum Miami (PAMM)",
+    "position": { "lat": 25.78578026114418, "lng": -80.1860641947899 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b898f83f964a520c44132e3",
+    "title": "HistoryMiami",
+    "position": {
+      "lat": 25.774827038274065,
+      "lng": -80.19655916400707
+    },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4043ce80f964a520f8f11ee3",
+    "title": "Bayfront Park",
+    "position": {
+      "lat": 25.77554704201281,
+      "lng": -80.18633365631104
+    },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b2e508ef964a52035de24e3",
+    "title": "Fairchild Tropical Botanic Garden",
+    "position": { "lat": 25.6783500723059, "lng": -80.27391045728048 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57ffe661498eb5043eb250af",
+    "title": "Phillip and Patricia Frost Museum of Science",
+    "position": { "lat": 25.78542479801752, "lng": -80.18787306140504 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4bb6599e2ea19521bd88ab2f",
+    "title": "Coral Castle",
+    "position": { "lat": 25.500199309807083, "lng": -80.44453227885163 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4a73717ff964a52073dc1fe3",
+    "title": "The Wolfsonian–FIU",
+    "position": { "lat": 25.780885998780366, "lng": -80.13256561491418 },
+    "area": "Miami Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4ae846b6f964a5206fae21e3",
+    "title": "Oleta River State Park",
+    "position": { "lat": 25.91231159657501, "lng": -80.13062953948975 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b3283a3f964a5208c0d25e3",
+    "title": "The Bass",
+    "position": { "lat": 25.797128051619897, "lng": -80.12958532393668 },
+    "area": "Miami Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4c5af0ecb05c1b8d2276d9b1",
+    "title": "Kampong Gardens",
+    "position": { "lat": 25.715335798508967, "lng": -80.25271721103921 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4bb658d22ea195218c87ab2f",
+    "title": "The Barnacle Historic State Park",
+    "position": { "lat": 25.725111091978032, "lng": -80.24381479433 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4a761f02f964a5204ce21fe3",
+    "title": "Pinecrest Gardens",
+    "position": { "lat": 25.669055316984675, "lng": -80.28524255707124 },
+    "area": "Pinecrest",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4cd73817122ba143c67d37a1",
+    "title": "Arch Creek Park",
+    "position": { "lat": 25.900288637170995, "lng": -80.16251743007089 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  }
+]

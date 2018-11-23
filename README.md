@@ -1,6 +1,6 @@
 # Miami Neighborhood Map
 
-This responsive app is a neighborhood map of Miami, Florida with a few of the best (by opinion) restaurants to visit. It was built using React throught the `create-react-app` package, the Google Maps API and the FourSquare API.
+This responsive app is a neighborhood map of Miami, Florida with a few of the best (by opinion) locations to visit. It was built using React throught the `create-react-app` package, the Google Maps API and the FourSquare API.
 
 ## Demo
 
@@ -48,7 +48,7 @@ Make sure you have Node.js installed on your machine because you will need npm t
     │    └── SideBar.js # Component for the sidebar listing
     ├── data
     │    ├── MapStyles.json # JSON file for custom map styles
-    │    └── RestaurantLocations.json # JSON file for locations for venues
+    │    └── VenueLocations.json # JSON file for locations for venues
     ├── App.scss # Sass Styles for the app.
     ├── App.js # This is the root of the app.
     ├── App.test.js # Used for testing. Provided with Create React App. No tests have been made.
