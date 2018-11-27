@@ -156,5 +156,309 @@
     "area": "North Miami",
     "isOpen": false,
     "isVisible": true
+  },
+  {
+    "id": "4c8426561b63b7133df69704",
+    "title": "Amelia Earhart Park",
+    "position": { "lat": 25.88188058962135, "lng": -80.27547955513 },
+    "area": "Hialeah",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "50e4740fb0ed2273ec6787da",
+    "title": "Huahua's Taqueria",
+    "position": { "lat": 25.790486012484635, "lng": -80.14169855484641 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "546221d7498efc8d1c136d96",
+    "title": "Bodega Taqueria y Tequila",
+    "position": { "lat": 25.78883108617179, "lng": -80.14157329336552 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "51168e25e4b05b41eca9496d",
+    "title": "Isaac Farms",
+    "position": { "lat": 25.589987118876373, "lng": -80.4791866772461 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4f94c3a1e4b06b0cf7585866",
+    "title": "Robert Is Here",
+    "position": { "lat": 25.778502871263992, "lng": -80.13310210133908 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "524093ea2fc6419216feb64b",
+    "title": "Sprout",
+    "position": { "lat": 25.801571902529236, "lng": -80.19491672515869 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "556127df498e2f287e50ab9d",
+    "title": "Lulu's Nitrogen Ice Cream",
+    "position": { "lat": 25.795672339968547, "lng": -80.18903145509343 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "543d3400498eef542d27dc0e",
+    "title": "Faena Hotel Miami Beach",
+    "position": { "lat": 25.807226454010465, "lng": -80.12323436090747 },
+    "area": "Miami Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "512a4787e4b0ff6b5ca7ae96",
+    "title": "Mojo Donuts",
+    "position": { "lat": 26.009093808291656, "lng": -80.24604327872383 },
+    "area": "Doral/Westchester",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "513a2d7fe4b06ad16be472dc",
+    "title": "Ball & Chain Miami",
+    "position": { "lat": 25.76594, "lng": -80.22038 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4a36eaf2f964a520029e1fe3",
+    "title": "Chapman Field Park",
+    "position": { "lat": 25.643507727130753, "lng": -80.28716918958551 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4d041ae728926ea8aeb069c2",
+    "title": "Santa's Enchanted Forest",
+    "position": { "lat": 25.73132791252022, "lng": -80.31933310579443 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5661f303498e2a648440a4ec",
+    "title": "The Salty Donut",
+    "position": { "lat": 25.799339677389757, "lng": -80.19613140816351 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4ccdd421b571b60cd52edb65",
+    "title": "Pinewood Cemetery",
+    "position": { "lat": 25.704168176954227, "lng": -80.26931724531639 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5737b76e498ee377a140b113",
+    "title": "Curtiss Mansion",
+    "position": { "lat": 25.81005, "lng": -80.282934 },
+    "area": "Hialeah",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4f52c0c7e4b0bf6b5d8b83c7",
+    "title": "Versace Mansion",
+    "position": { "lat": 25.78199737646376, "lng": -80.1303718915325 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "58618fc6876ade0a3527c981",
+    "title": "Kith Treats",
+    "position": { "lat": 25.795382794536735, "lng": -80.12916411882097 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "50d4e469e4b00f9f071720d1",
+    "title": "Moonlite Diner",
+    "position": { "lat": 25.740138494382567, "lng": -80.35494340627118 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5aa8a8e76bdee66738e2ef0a",
+    "title": "OH MY GOSH Brigadeiros",
+    "position": { "lat": 25.750502143157735, "lng": -80.23156642913818 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5356adf9498ef7473a2e8aab",
+    "title": "Cafe Curuba",
+    "position": { "lat": 25.74718135457047, "lng": -80.25899148392227 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4bc323c5abf49521154ec393",
+    "title": "Spanish Monastery Cloisters",
+    "position": { "lat": 25.929622785714123, "lng": -80.15464067459106 },
+    "area": "North Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4af47719f964a520c5f221e3",
+    "title": "Sweat Records",
+    "position": { "lat": 25.8263905263433, "lng": -80.19180122202336 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57df1d22498ea530e6b20e10",
+    "title": "Brothers & Brawlers",
+    "position": { "lat": 25.803264, "lng": -80.202705 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4e5bc3b21fc7864a236b4e8a",
+    "title": "Doggi's Arepa Bar",
+    "position": { "lat": 25.750942055243748, "lng": -80.21538851057903 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4df01ab745ddbf3897d0b714",
+    "title": "Rice House of Kabob (Downtown)",
+    "position": { "lat": 25.76450678925061, "lng": -80.19392227527442 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4a9dab4af964a520e63820e3",
+    "title": "Rice House of Kabob (Doral)",
+    "position": { "lat": 25.787407313384282, "lng": -80.33724257811765 },
+    "area": "Doral",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b19bcb9f964a52016e323e3",
+    "title": "Rice House of Kabob (Miami Beach)",
+    "position": { "lat": 25.784445405147448, "lng": -80.14120428386711 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4cdd8ea778ddf04dc70b9598",
+    "title": "Rice House of Kabob (North Miami)",
+    "position": { "lat": 25.9092969634951, "lng": -80.15808934878514 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "51869340498edeec0e333cd7",
+    "title": "Brickell City Centre",
+    "position": { "lat": 25.767873520321295, "lng": -80.19102909041564 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5939916c3d479112acf7811a",
+    "title": "305 Burger",
+    "position": { "lat": 25.799327918663433, "lng": -80.19978731877927 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b60a7a4f964a52085f229e3",
+    "title": "Historic Homestead Town Hall Museum",
+    "position": { "lat": 25.47076834082525, "lng": -80.47737793212704 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "50fae4f0e4b07dd913e27e99",
+    "title": "Strawberry Fields Of Kendall",
+    "position": { "lat": 25.611895994124488, "lng": -80.38338490192855 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5ab691b2840fc23b13aaded1",
+    "title": "Sunflower Field",
+    "position": { "lat": 25.580702, "lng": -80.42101 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4d6a6d22b6f46dcb566230b2",
+    "title": "Everglades Safari Park",
+    "position": { "lat": 25.76096, "lng": -80.625526 },
+    "area": "Everglades",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b662f2df964a520fe172be3",
+    "title": "Deering Estate at Cutler",
+    "position": { "lat": 25.615540805198414, "lng": -80.30839733505799 },
+    "area": "Pinecrest",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4d93a03084a6a35df41546b8",
+    "title": "Crandon Park Gardens",
+    "position": { "lat": 25.70464739394919, "lng": -80.15712137864705 },
+    "area": "Key Biscayne",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4cae4b82aef16dcb45899f54",
+    "title": "Ingraham Terrace Park",
+    "position": { "lat": 25.70704130217944, "lng": -80.26054076550848 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4cae3a175430b7139f6d3516",
+    "title": "Seawell Park",
+    "position": { "lat": 25.784219566678484, "lng": -80.2239974409329 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
   }
 ]
