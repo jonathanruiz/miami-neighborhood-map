@@ -460,5 +460,397 @@
     "area": "Downtown",
     "isOpen": false,
     "isVisible": true
+  },
+  {
+    "id": "5678585d498ed694e0c77d72",
+    "title": "Grove Bay Grill",
+    "position": { "lat": 25.728755792383087, "lng": -80.23338668671305 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4d0148e56289f04dffee96cc",
+    "title": "Alhambra Water Tower",
+    "position": { "lat": 25.753031517088413, "lng": -80.28619499388658 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b806d1bf964a520437130e3",
+    "title": "Cauley Square",
+    "position": { "lat": 25.558775490826974, "lng": -80.39110936100305 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b4a2d68f964a520797d26e3",
+    "title": "Peacock Park",
+    "position": { "lat": 25.72651595133509, "lng": -80.2402481207648 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "56c48a9bcd10f59731db8372",
+    "title": "Sucre Cafe",
+    "position": { "lat": 25.748436134071483, "lng": -80.26430800945643 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5575db76498e3c32c82dc993",
+    "title": "Jar and Fork",
+    "position": { "lat": 25.77429912380884, "lng": -80.18919225184653 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4e71fb687d8b53db1c0391bb",
+    "title": "Yardbird Southern Table & Bar",
+    "position": { "lat": 25.7890937527974, "lng": -80.14011886835482 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "58e05dcc51666a461eafbaa9",
+    "title": "Vicky's House",
+    "position": { "lat": 25.727856056991957, "lng": -80.2450076342009 },
+    "area": "Cocount Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4f327f1b19836c91c7dd81e1",
+    "title": "Casa Blanca Bakery",
+    "position": { "lat": 25.82738, "lng": -80.273506 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b608fe3f964a520cded29e3",
+    "title": "Morgan's Restaurant",
+    "position": { "lat": 25.803854926837595, "lng": -80.19444317642369 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5744eeb8498ec5599816298a",
+    "title": "Poke 305",
+    "position": { "lat": 25.767251869565577, "lng": -80.19644210991906 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "42966300f964a5204f241fe3",
+    "title": "Tarpon Bend Raw Bar & Grill",
+    "position": { "lat": 25.74977344941512, "lng": -80.25606701061304 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4cd49f3c76ab721e4355686a",
+    "title": "Latin House Grill",
+    "position": { "lat": 25.766047, "lng": -80.19951116 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57365a9c498e8349f4c646f8",
+    "title": "The Spillover",
+    "position": { "lat": 25.728788641870004, "lng": -80.24046957460949 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "569c2946498e49dfdef5124f",
+    "title": "Ariete",
+    "position": { "lat": 25.725167895622583, "lng": -80.2450493674477 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "562bcb57498e02e8ad099825",
+    "title": "The Little Farm House",
+    "position": { "lat": 25.853103099236293, "lng": -80.19106178181083 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "582f3ab8fc5a5f4d9415eb61",
+    "title": "Rail 71 Cafe",
+    "position": { "lat": 25.842167, "lng": -80.189173 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4bf6b7f092d1952106e0591f",
+    "title": "The Moore Building",
+    "position": { "lat": 25.813540784531803, "lng": -80.19169178215252 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5627fe5c498e8a8e6bd662f7",
+    "title": "Paulie Gee's Miami",
+    "position": { "lat": 25.84881, "lng": -80.184511 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57c789a3498e41d9f772ff5d",
+    "title": "Cream Parlor",
+    "position": { "lat": 25.85059738817063, "lng": -80.18483133866263 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57adbaa5498e486f415bcb0e",
+    "title": "HALVES & WHOLES",
+    "position": { "lat": 25.78900430570977, "lng": -80.14148325895832 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "55dd0034498ec4e73bca2b05",
+    "title": "Lung Yai Thai Tapas",
+    "position": { "lat": 25.765709519946135, "lng": -80.22319450843865 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b6f17f0f964a52076dc2ce3",
+    "title": "El Pub",
+    "position": { "lat": 25.765594109484066, "lng": -80.22045341732647 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "56f83fe9498e430c140f8df5",
+    "title": "Midtown Garden Center",
+    "position": { "lat": 25.801938, "lng": -80.191225 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "52d9c256498eaa3f012a7f91",
+    "title": "Chill-N Ice Cream (North Beach)",
+    "position": { "lat": 25.941233338927667, "lng": -80.14808434161675 },
+    "area": "North Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5a123928dff81533d117378c",
+    "title": "Chill-N' Nitrogen Ice Cream (South Miami)",
+    "position": { "lat": 25.703021194698103, "lng": -80.28573095798492 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4d3773ded60c6dcb03fe6dbc",
+    "title": "Wertheim Conservatory- FIU",
+    "position": { "lat": 25.75944091131189, "lng": -80.37318056579032 },
+    "area": "Doral",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4e3f091162e19d6109841c38",
+    "title": "Azucar Ice Cream Company",
+    "position": { "lat": 25.76581529173179, "lng": -80.2197113984139 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "40e0b100f964a52049051fe3",
+    "title": "Soyka",
+    "position": { "lat": 25.82705166174467, "lng": -80.18726732189756 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5550f3a1498e894ce42b62d2",
+    "title": "The Leah Arts District",
+    "position": { "lat": 25.836449913789384, "lng": -80.26122127717052 },
+    "area": "Hialeah",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "54ad8c7d498e4ce71633b732",
+    "title": "Institute of Contemporary Art",
+    "position": { "lat": 25.8139806843009, "lng": -80.1915020185179 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "58c4a76493eaf85f3c89f3cb",
+    "title": "City Place Doral",
+    "position": { "lat": 25.807607140358837, "lng": -80.33124922000863 },
+    "area": "Doral",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4cae7fd7db32f04d9855b04d",
+    "title": "Crazy About You",
+    "position": { "lat": 25.761782796648205, "lng": -80.18905475731873 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4af0f6daf964a52052e021e3",
+    "title": "Perricone's Marketplace & Cafe",
+    "position": { "lat": 25.764863348574014, "lng": -80.19289614150978 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "56e5b40b498e8a43555e6a6e",
+    "title": "107 coffee and deserts",
+    "position": { "lat": 25.7528465333494, "lng": -80.36724148118685 },
+    "area": "Westchester",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b2d6edaf964a52096d624e3",
+    "title": "specialTEA Lounge & Cafe",
+    "position": { "lat": 25.746125029386402, "lng": -80.36898994904021 },
+    "area": "Westchester",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5576eb47498e4f6cc80385e6",
+    "title": "Mister Block Cafe",
+    "position": { "lat": 25.801720325488247, "lng": -80.1988127358409 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4f9d67e2e4b04dce45c283a5",
+    "title": "Safari Edventure",
+    "position": { "lat": 25.546544717934307, "lng": -80.42122635247492 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4c9806cc2778224b4e09a168",
+    "title": "South Pointe Pier",
+    "position": { "lat": 25.76358236691918, "lng": -80.1296781208283 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "585ebd7f03e29a1f5011a563",
+    "title": "Dr SMOOD (Downtown)",
+    "position": { "lat": 25.767051329208478, "lng": -80.19308531887674 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "56645338498e16a3d8f4467f",
+    "title": "Dr SMOOD",
+    "position": { "lat": 25.798421633901878, "lng": -80.19910123199749 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5683289a498e4d155632ada3",
+    "title": "Dr SMOOD",
+    "position": { "lat": 25.704557655695734, "lng": -80.28744833117833 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "547b676a498ec574d679a010",
+    "title": "Redland Ranch",
+    "position": { "lat": 25.551537, "lng": -80.428592 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b009a44f964a520e13f22e3",
+    "title": "Espanola Way Village",
+    "position": { "lat": 25.786915866281717, "lng": -80.13283162818334 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "55688f00498e444f7f497803",
+    "title": "Station 28",
+    "position": { "lat": 25.772646631289838, "lng": -80.19212672713371 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "509f17bde4b05e06b54fdf79",
+    "title": "Lagniappe House",
+    "position": { "lat": 25.809133295388015, "lng": -80.1911239492711 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4f2c94ede4b056f83a4fa352",
+    "title": "Cava Flamenco Lounge Restaurant",
+    "position": { "lat": 25.764546776526686, "lng": -80.25819547947991 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "59da78e286f4cc7f7d441f41",
+    "title": "Under The Mango Tree",
+    "position": { "lat": 25.774495, "lng": -80.135811 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4bbcbf3ba0a0c9b6fdb91a0f",
+    "title": "Soya E Pomodoro",
+    "position": { "lat": 25.77524744953693, "lng": -80.19153376680376 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
   }
 ]
