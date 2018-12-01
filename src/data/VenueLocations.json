@@ -934,122 +934,130 @@
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
+    "id": "4b3d581cf964a520ca9225e3",
+    "title": "Mandolin Aegean Bistro",
+    "position": { "lat": 25.815873700552505, "lng": -80.1916622248109 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "54e944f7498e6e265f19e3f3",
+    "title": "Latteria",
+    "position": { "lat": 25.8079777, "lng": -80.19258459999999 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4edb241c46907c1b43978f64",
+    "title": "La Latina Miami",
+    "position": { "lat": 25.809553162656485, "lng": -80.19099614121755 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4c2a24c7e19720a1b296fa58",
+    "title": "Lulu in the Grove",
+    "position": { "lat": 25.726880850754284, "lng": -80.243930531187 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "565b23cc498e97775374683a",
+    "title": "El Patio Wynwood",
+    "position": { "lat": 25.799399042897903, "lng": -80.19827220872914 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57ddaf60498e306815a58480",
+    "title": "Wynwood 5th Avenue",
+    "position": { "lat": 25.80043251876289, "lng": -80.20301441698693 },
     "area": "",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "4e808fe3dab433307b6f8dc5",
+    "title": "Alaska Coffee Roasting Co.",
+    "position": { "lat": 25.8964781962769, "lng": -80.16221681247292 },
+    "area": "North Miami",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "58c7754d52893011d5e83e00",
+    "title": "Pincho Factory (Brickell)",
+    "position": { "lat": 25.7619588, "lng": -80.1931718 },
+    "area": "Downtown",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "58c7770c93eaf8670a42a149",
+    "title": "Pincho Factory (Kendall)",
+    "position": { "lat": 25.68463315611106, "lng": -80.39912069329426 },
+    "area": "Kendall",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "5113fd68e4b0ab2ae16be5a9",
+    "title": "Pincho Factory (Coral Gables)",
+    "position": { "lat": 25.751357, "lng": -80.2557928 },
+    "area": "Coral Gables",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "56ba8b7b38fa674ef7a64ac5",
+    "title": "Pincho Factory (Hialeah)",
+    "position": { "lat": 25.86724, "lng": -80.307266 },
+    "area": "Hialeah",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "57a4bc83498eb2c5a0b6e34a",
+    "title": "Pincho Factory (Pinecrest)",
+    "position": { "lat": 25.6533884, "lng": -80.3288027 },
+    "area": "Pinecrest",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "5565d651498e79743994b00f",
+    "title": "Ella",
+    "position": { "lat": 25.812228019009332, "lng": -80.19248617260595 },
+    "area": "Wynwood",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "56ef1b32498eb3b7f1b4132c",
+    "title": "Grown",
+    "position": { "lat": 25.693921789635592, "lng": -80.30145823377875 },
+    "area": "Pinecrest",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "55b3a87e498e57005612aa41",
+    "title": "Breadman Miami Bakery",
+    "position": { "lat": 25.87534118749686, "lng": -80.32387804997829 },
+    "area": "Hialeah",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
-    "isOpen": false,
-    "isVisible": true
-  },
-  {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
-    "isOpen": false,
-    "isVisible": true
-  },
-  {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
-    "isOpen": false,
-    "isVisible": true
-  },
-  {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
-    "isOpen": false,
-    "isVisible": true
-  },
-  {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "4a76ad55f964a52029e31fe3",
+    "title": "Big Pink",
+    "position": { "lat": 25.770880824440667, "lng": -80.1337454651785 },
+    "area": "South Beach",
     "isOpen": false,
     "isVisible": true
   }
