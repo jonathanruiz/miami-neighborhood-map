@@ -1,3 +1,4 @@
+/* global google */
 import React, { Component } from "react";
 import {
   withScriptjs,
@@ -14,12 +15,15 @@ const MyMapComponent = withScriptjs(
       defaultCenter={props.center}
       defaultOptions={{
         styles: props.styles,
-        // these following 7 options turn certain controls off see link below
+        gestureHandling: "greedy",
+        zoomControlOptions: {
+          position: google.maps.ControlPosition.RIGHT_TOP
+        },
+        // these following options turn certain controls off see link below
         streetViewControl: false,
         scaleControl: false,
         mapTypeControl: false,
         panControl: false,
-        zoomControl: true,
         rotateControl: false,
         fullscreenControl: false
       }}
