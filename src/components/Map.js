@@ -12,7 +12,17 @@ const MyMapComponent = withScriptjs(
     <GoogleMap
       defaultZoom={props.zoom}
       defaultCenter={props.center}
-      defaultOptions={props.styles}
+      defaultOptions={{
+        styles: props.styles,
+        // these following 7 options turn certain controls off see link below
+        streetViewControl: false,
+        scaleControl: false,
+        mapTypeControl: false,
+        panControl: false,
+        zoomControl: true,
+        rotateControl: false,
+        fullscreenControl: false
+      }}
     >
       {props.markers
         .filter(marker => marker.isVisible)
