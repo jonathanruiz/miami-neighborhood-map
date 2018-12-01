@@ -225,7 +225,7 @@
     "id": "512a4787e4b0ff6b5ca7ae96",
     "title": "Mojo Donuts",
     "position": { "lat": 26.009093808291656, "lng": -80.24604327872383 },
-    "area": "Doral/Westchester",
+    "area": "Westchester",
     "isOpen": false,
     "isVisible": true
   },
@@ -367,7 +367,7 @@
   },
   {
     "id": "4b19bcb9f964a52016e323e3",
-    "title": "Rice House of Kabob (Miami Beach)",
+    "title": "Rice House of Kabob (South Beach)",
     "position": { "lat": 25.784445405147448, "lng": -80.14120428386711 },
     "area": "South Beach",
     "isOpen": false,
@@ -521,7 +521,7 @@
     "id": "58e05dcc51666a461eafbaa9",
     "title": "Vicky's House",
     "position": { "lat": 25.727856056991957, "lng": -80.2450076342009 },
-    "area": "Cocount Grove",
+    "area": "Coconut Grove",
     "isOpen": false,
     "isVisible": true
   },
@@ -850,6 +850,206 @@
     "title": "Soya E Pomodoro",
     "position": { "lat": 25.77524744953693, "lng": -80.19153376680376 },
     "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "56703e6f498e2d5d50522f4b",
+    "title": "Sparkle & Shine Darling",
+    "position": { "lat": 25.791251410283362, "lng": -80.14107292987524 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b10024af964a520666723e3",
+    "title": "The Bookstore in the Grove",
+    "position": { "lat": 25.72905666359034, "lng": -80.23985269553619 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "54e66597498e9da2eb55df2f",
+    "title": "Macondo Coffee Roasters",
+    "position": { "lat": 25.796361733467002, "lng": -80.34290586049376 },
+    "area": "Doral",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "59e49f82088158407c5440cb",
+    "title": "Dirt (Downtown)",
+    "position": { "lat": 25.76482165896943, "lng": -80.19396883611215 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "59cd35770d2be74d9e4283c0",
+    "title": "Dirt (South Beach)",
+    "position": { "lat": 25.794310626685853, "lng": -80.14391931996673 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5366cd7e498e2b4b281fbf02",
+    "title": "Zak the Baker",
+    "position": { "lat": 25.801497, "lng": -80.201021 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4c3a54ecedba9521d496d625",
+    "title": "Super Wheels Skating Center",
+    "position": { "lat": 25.663353677584105, "lng": -80.39379205683775 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "547ec4fc498e110589f46917",
+    "title": "Basement",
+    "position": { "lat": 25.80527983367372, "lng": -80.12424946627044 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4d3632123612a0933a007d5d",
+    "title": "Kendall Ice Arena",
+    "position": { "lat": 25.67102197432002, "lng": -80.44095891712149 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b018364f964a520024322e3",
+    "title": "Matheson Hammock Park",
+    "position": { "lat": 25.679798522138196, "lng": -80.2585046419848 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
     "isOpen": false,
     "isVisible": true
   }
