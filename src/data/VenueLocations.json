@@ -3,7 +3,7 @@
     "id": "4c85735947cc224b6f68a19f",
     "title": "Fritanga Caña Brava",
     "position": { "lat": 25.779562, "lng": -80.240688 },
-    "area": null,
+    "area": "Downtown",
     "isOpen": false,
     "isVisible": true
   },
@@ -11,7 +11,7 @@
     "id": "4b5e22abf964a520977f29e3",
     "title": "Karla Bakery",
     "position": { "lat": 25.770812, "lng": -80.331812 },
-    "area": null,
+    "area": "Coral Gables",
     "isOpen": false,
     "isVisible": true
   },
@@ -19,7 +19,7 @@
     "id": "4aeba471f964a52018c421e3",
     "title": "Flanigan's Seafood Bar and Grill",
     "position": { "lat": 25.783812, "lng": -80.336062 },
-    "area": null,
+    "area": "Doral",
     "isOpen": false,
     "isVisible": true
   },
@@ -27,7 +27,7 @@
     "id": "4a8893e8f964a520ff0620e3",
     "title": "Latin American Bakery & Cafe",
     "position": { "lat": 25.763188, "lng": -80.288062 },
-    "area": null,
+    "area": "Coral Gables",
     "isOpen": false,
     "isVisible": true
   },
@@ -35,7 +35,7 @@
     "id": "4a95bfe0f964a520792420e3",
     "title": "Casola's Pizzeria & Sub Shop",
     "position": { "lat": 25.746938, "lng": -80.221437 },
-    "area": null,
+    "area": "Coconut Grove",
     "isOpen": false,
     "isVisible": true
   },
@@ -1390,26 +1390,186 @@
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "4b8497bef964a5204d3d31e3",
+    "title": "Coral Gables Art Cinema",
+    "position": { "lat": 25.750421038681598, "lng": -80.25993866513984 },
+    "area": "Coral Gables",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "4d80f86a6bd8b60cea62537c",
+    "title": "Jazz In The Gables",
+    "position": { "lat": 25.751044900415955, "lng": -80.26063331541555 },
+    "area": "Coral Gables",
     "isOpen": false,
     "isVisible": true
   },
   {
-    "id": "",
-    "title": "",
-    "position": {},
-    "area": "",
+    "id": "4ec2f147cc21c9a2b119e488",
+    "title": "Budare Bistro",
+    "position": { "lat": 25.760348764628613, "lng": -80.20139943491591 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b114d19f964a520f37923e3",
+    "title": "Norman Brothers Produce",
+    "position": { "lat": 25.70095285992914, "lng": -80.33647840906913 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4adb8000f964a520462821e3",
+    "title": "Coral Bagels",
+    "position": { "lat": 25.73980321595429, "lng": -80.2371176958466 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5719da48cd10932de5c53e29",
+    "title": "Doce Provisions",
+    "position": { "lat": 25.767853024053796, "lng": -80.21439661995788 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4bcf7e770ffdce72ff8bb2c0",
+    "title": "The Leslie Hotel",
+    "position": { "lat": 25.78359419351301, "lng": -80.13015822181738 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4ba2a0d3f964a520a20a38e3",
+    "title": "Miami Tower",
+    "position": { "lat": 25.77237909946038, "lng": -80.19147042319405 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "530b86e3498ee55f4741fac8",
+    "title": "KUSH Wynwood",
+    "position": { "lat": 25.795751256072112, "lng": -80.19471956731299 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5027ea48e4b004413a6f12a3",
+    "title": "NiDo Caffe Italian Restaurant",
+    "position": { "lat": 25.842440623543595, "lng": -80.18412308561527 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "572939d4498ebe82f1109080",
+    "title": "Baby Jane",
+    "position": { "lat": 25.768510409290023, "lng": -80.1905043680754 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4d03c537e350b60c352a7f42",
+    "title": "Willis Park",
+    "position": { "lat": 25.942521750871943, "lng": -80.30652559833955 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "55c54bc2498e61d047b56ddd",
+    "title": "La Moderna",
+    "position": { "lat": 25.794535281565036, "lng": -80.143931457309 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b0d639ff964a520584723e3",
+    "title": "Sarussi Subs",
+    "position": { "lat": 25.763219407416788, "lng": -80.30569881182213 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b21435af964a520293924e3",
+    "title": "Lots of Lox Deli",
+    "position": { "lat": 25.63060352796793, "lng": -80.33971605445218 },
+    "area": "Pinecrest",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b053e35f964a520805722e3",
+    "title": "Roasters' N Toasters (South Beach)",
+    "position": { "lat": 25.813951032199196, "lng": -80.12977649935195 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b717c55f964a52021492de3",
+    "title": "Roasters' N Toasters (Pinecrest)",
+    "position": { "lat": 25.68377258799941, "lng": -80.31364527477719 },
+    "area": "Pinecrest",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4c202e3a920076b0bff3c5e9",
+    "title": "Taurus",
+    "position": { "lat": 25.725262771370506, "lng": -80.24495625709255 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "58e902333f5a5c197d42a9cf",
+    "title": "Killer Melts",
+    "position": { "lat": 25.65424853363959, "lng": -80.40092264371475 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "561bb8db498e8f45801ca666",
+    "title": "Hate Mondays Tavern",
+    "position": { "lat": 25.647263408699903, "lng": -80.39518602241853 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b770dc5f964a52082782ee3",
+    "title": "Frankie's Pizza",
+    "position": { "lat": 25.732760027298113, "lng": -80.34301360057913 },
+    "area": "Doral",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "570a8c28498efb0eb985b79d",
+    "title": "Rafa's Backyard Grill",
+    "position": { "lat": 25.73296342882802, "lng": -80.34830875182973 },
+    "area": "Westchester",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b3ffc64f964a520a2b325e3",
+    "title": "Bayside Marketplace",
+    "position": { "lat": 25.77821837175614, "lng": -80.18668102326205 },
+    "area": "Downtown",
     "isOpen": false,
     "isVisible": true
   }
