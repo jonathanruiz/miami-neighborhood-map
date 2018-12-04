@@ -1060,5 +1060,357 @@
     "area": "South Beach",
     "isOpen": false,
     "isVisible": true
+  },
+  {
+    "id": "4dc430bfd164eb9c9fcf001c",
+    "title": "Peacock Garden Cafe",
+    "position": { "lat": 25.72735, "lng": -80.24051 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4af9b97ef964a520ba1322e3",
+    "title": "Bal Harbour Shops",
+    "position": { "lat": 25.888393124710742, "lng": -80.12432897256524 },
+    "area": "North Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "55a560ce498eeec7df1e1f55",
+    "title": "Kone Sushi",
+    "position": { "lat": 25.773452240435315, "lng": -80.18920573875782 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5076f153e4b049867ac241f7",
+    "title": "Crema Gourmet Espresso Bar (South Beach)",
+    "position": { "lat": 25.773485558392725, "lng": -80.18940790713853 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "554fe6ba498eb7864c9ebf87",
+    "title": "Crema Gourmet Espresso Bar (Coral Gables)",
+    "position": { "lat": 25.749644225201436, "lng": -80.25840560626632 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "54d7836c498eba09a61672a4",
+    "title": "Limited Edition",
+    "position": { "lat": 25.844928360424746, "lng": -80.1882884172523 },
+    "area": "North Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4ced8f385de16ea864d7b696",
+    "title": "Town of Golden Beach",
+    "position": { "lat": 25.96522141726035, "lng": -80.12213230133055 },
+    "area": "North Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4c6aacfc1a6620a194aa668c",
+    "title": "Bunnie Cakes",
+    "position": { "lat": 25.799543712627568, "lng": -80.19095262325814 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "54766a26498e40506ffbe0ff",
+    "title": "TWENTY SEVEN",
+    "position": { "lat": 25.804164702116918, "lng": -80.12644411820649 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4aa0563ff964a5202e3f20e3",
+    "title": "Joey's",
+    "position": { "lat": 25.800947081855277, "lng": -80.19917247062607 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "53cd6e3c498ebaf93b9431ac",
+    "title": "Juan Valdez Café",
+    "position": { "lat": 25.773499430916473, "lng": -80.18792474534497 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "59272113db1d81056a3d5688",
+    "title": "Juan Valdez Café",
+    "position": { "lat": 25.80906484267874, "lng": -80.33126399052475 },
+    "area": "Doral",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "562943a6498e06eb723020ec",
+    "title": "The Wynwood Yard",
+    "position": { "lat": 25.80365833075834, "lng": -80.19644310945844 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "51c70326498ea04560fdd8ef",
+    "title": "Toasted Bagelry & Deli",
+    "position": { "lat": 25.766495487135227, "lng": -80.19505382719562 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "56a80df9498e200f5efcaaa1",
+    "title": "Spring Chicken",
+    "position": { "lat": 25.70915384630943, "lng": -80.28321346262989 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "50c294f7e4b032fa8176cbe4",
+    "title": "Gramps",
+    "position": { "lat": 25.799636474829686, "lng": -80.19834874812757 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "58c97f8f53051127f87e0ab4",
+    "title": "Masa Taqueria",
+    "position": { "lat": 25.85563, "lng": -80.120426 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "571b9ab2498e15fd2425c769",
+    "title": "Vice City Bean",
+    "position": { "lat": 25.791671799672798, "lng": -80.19416102240933 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4fec9381e4b059c747d2e9fe",
+    "title": "ROK:BRGR",
+    "position": { "lat": 25.703365439625426, "lng": -80.28746437713845 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "53b49852498ef0074d86a492",
+    "title": "Finka Table & Tap",
+    "position": { "lat": 25.742675210673248, "lng": -80.43176866869085 },
+    "area": "Kendall",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4ea9e45dc2ee9d261fd3cd46",
+    "title": "Cubaocho Museum & Performing Arts Center",
+    "position": { "lat": 25.76575874042391, "lng": -80.21938096738099 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4e3d5e538877b00cfc459f31",
+    "title": "The Biltmore Café",
+    "position": { "lat": 25.741009850541207, "lng": -80.2801318700256 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4e945eaad5fb27b8eaeca841",
+    "title": "Rouge",
+    "position": { "lat": 25.855628613926893, "lng": -80.12810413114019 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5668d706498e1043c35caebe",
+    "title": "NaiYaRa",
+    "position": { "lat": 25.79442831691602, "lng": -80.14389722964069 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5af9c4ea012358002c847f25",
+    "title": "YūGō Sushi Burritos + Poke",
+    "position": { "lat": 25.772906177189352, "lng": -80.19173173606379 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5186c041498ea0e232151b34",
+    "title": "Emack & Bolio's",
+    "position": { "lat": 25.79484983173407, "lng": -80.1442484477481 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "5238bdc011d2f95d50e47b30",
+    "title": "Milk Gone Nuts!",
+    "position": { "lat": 25.79439410692397, "lng": -80.14186342995113 },
+    "area": "South Beach",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "54400968498e5a727e2f3a74",
+    "title": "Smart Bites to Go",
+    "position": { "lat": 25.795472, "lng": -80.20888099999999 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57047385498e0bf50c062a15",
+    "title": "Pawnbroker",
+    "position": { "lat": 25.773691989294292, "lng": -80.19141279141449 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b2ada1cf964a520d8b024e3",
+    "title": "94th Aero Squadron",
+    "position": { "lat": 25.785132934349804, "lng": -80.28761635034554 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "57487e82cd102ac358977052",
+    "title": "Honeybee Donuts",
+    "position": { "lat": 25.702761, "lng": -80.285522 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b8c1427f964a52095bc32e3",
+    "title": "Fruit & Spice Park",
+    "position": { "lat": 25.53510533421573, "lng": -80.493519919925 },
+    "area": "Homestead",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "573f99d7498eff608e71ef2e",
+    "title": "Caja Caliente",
+    "position": { "lat": 25.80080981105611, "lng": -80.19897273112186 },
+    "area": "Wynwood",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "569533fc498e049f93f5d747",
+    "title": "Le Marché Cafe",
+    "position": { "lat": 25.759661346707375, "lng": -80.19823723991418 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "574058b2498ea2ba24cd1a06",
+    "title": "All Day",
+    "position": { "lat": 25.784600000897, "lng": -80.19386286955303 },
+    "area": "Downtown",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b25a120f964a520c17424e3",
+    "title": "Walls Old Fashioned Ice Cream",
+    "position": { "lat": 25.69565287520578, "lng": -80.30091395856994 },
+    "area": "South Miami",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b5759f5f964a520f63228e3",
+    "title": "Shorty's BBQ (Doral)",
+    "position": { "lat": 25.79585534657499, "lng": -80.33704342321508 },
+    "area": "Doral",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b47ebe4f964a5200c4426e3",
+    "title": "Misha's Cupcakes",
+    "position": { "lat": 25.7086148178711, "lng": -80.2839749073656 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4e1f1cbe62e19e27e2505fb1",
+    "title": "Misha's Cupcakes",
+    "position": { "lat": 25.912715, "lng": -80.330789 },
+    "area": "Hialeah",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b7b3a83f964a5204a592fe3",
+    "title": "Sun Juice Smoothies",
+    "position": { "lat": 25.70473378946099, "lng": -80.28136993282511 },
+    "area": "Coral Gables",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "4b54dd1bf964a52047d027e3",
+    "title": "Alice Wainwright Park",
+    "position": { "lat": 25.74874047393694, "lng": -80.20614207596661 },
+    "area": "Coconut Grove",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
+  },
+  {
+    "id": "",
+    "title": "",
+    "position": {},
+    "area": "",
+    "isOpen": false,
+    "isVisible": true
   }
 ]
