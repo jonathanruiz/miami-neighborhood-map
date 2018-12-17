@@ -13,7 +13,7 @@ class App extends Component {
       markers: VenueLocations,
       venues: [],
       styles: MapStyles,
-      zoom: 12,
+      zoom: 11,
       center: { lat: 25.7739436, lng: -80.263992 },
       updateSuperState: obj => {
         this.setState(obj);
